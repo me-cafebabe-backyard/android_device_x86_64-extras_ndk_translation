@@ -1,7 +1,7 @@
 include frameworks/libs/native_bridge_support/native_bridge_support.mk
 
 PRODUCT_SOONG_NAMESPACES += \
-    frameworks/libs/native_bridge_support/libc
+    frameworks/libs/native_bridge_support/android_api/libc
 
 PRODUCT_PACKAGES += \
     $(NATIVE_BRIDGE_PRODUCT_PACKAGES)
