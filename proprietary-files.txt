@@ -1,6 +1,6 @@
-# Download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-34_r13.zip
-# Glob: `ls system/bin/arm*/* system/bin/ndk_translation* system/etc/binfmt_misc/arm* system/etc/cpuinfo.arm* system/etc/ld.config.arm* system/etc/init/ndk_translation*.rc system/lib*/libndk_translation* system/lib*/arm*/*|sort`
-# Version: x86_64-34_r13 google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A2/11596452:userdebug/dev-keys
+# Download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-35_r08.zip
+# Glob: `ls system/bin/ndk_translation* system/etc/binfmt_misc/arm* system/etc/cpuinfo.arm* system/etc/ld.config.arm* system/etc/init/ndk_translation*.rc system/lib*/libndk_translation* | sort`
+# Version: x86_64-35_r08 google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.005/12228598:userdebug/dev-keys
 
 # ndk_translation
 system/bin/ndk_translation_program_runner_binfmt_misc_arm64
@@ -14,7 +14,6 @@ system/etc/cpuinfo.arm64.txt
 system/etc/ld.config.arm.txt
 system/etc/ld.config.arm64.txt
 system/lib64/libndk_translation.so
-system/lib64/libndk_translation_exec_region.so
 system/lib64/libndk_translation_proxy_libEGL.so
 system/lib64/libndk_translation_proxy_libGLESv1_CM.so
 system/lib64/libndk_translation_proxy_libGLESv2.so
