@@ -1,6 +1,6 @@
-# Download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-35_r08.zip
+# Download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-36_r06.zip
 # Glob: `ls system/bin/ndk_translation* system/etc/binfmt_misc/arm* system/etc/cpuinfo.arm* system/etc/ld.config.arm* system/etc/init/ndk_translation*.rc system/lib*/libndk_translation* | sort`
-# Version: x86_64-35_r08 google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.005/12228598:userdebug/dev-keys
+# Version: google/sdk_gphone64_x86_64/emu64xa:16/BP22.250325.006/13344233:userdebug/dev-keys
 
 # ndk_translation
 system/bin/ndk_translation_program_runner_binfmt_misc_arm64
