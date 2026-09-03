@@ -5,6 +5,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     $(NATIVE_BRIDGE_PRODUCT_PACKAGES) \
+    berberis_prebuilt_arm64 \
     libberberis_exec_region
 
 PRODUCT_SYSTEM_PROPERTIES += \

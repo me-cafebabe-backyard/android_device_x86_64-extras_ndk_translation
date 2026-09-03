@@ -1,18 +1,9 @@
 # Download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-ps16k-37.0_r06.zip
-# Glob: `ls system/bin/ndk_translation* system/etc/binfmt_misc/arm* system/etc/berberis/* system/etc/ld.config.arm* system/etc/init/berberis_arm_or_arm64.rc system/lib*/libndk_translation* system/lib*/libproxy_* | sort`
+# Glob: `ls system/bin/ndk_translation* system/lib*/libndk_translation* system/lib*/libproxy_* | sort`
 # Version: google/generic_system_google/generic:17/CE2A.260420.019/15611780:userdebug/dev-keys
 
 # ndk_translation
 system/bin/ndk_translation_program_runner_binfmt_misc_arm64
-system/etc/berberis/cpuinfo.arm64.txt
-system/etc/berberis/cpuinfo.arm.txt
-system/etc/binfmt_misc/arm64_dyn
-system/etc/binfmt_misc/arm64_exe
-system/etc/binfmt_misc/arm_dyn
-system/etc/binfmt_misc/arm_exe
-system/etc/init/berberis_arm_or_arm64.rc
-system/etc/ld.config.arm64.txt
-system/etc/ld.config.arm.txt
 system/lib64/libndk_translation.so
 system/lib64/libproxy_arm64_to_x86_64_libaaudio.so
 system/lib64/libproxy_arm64_to_x86_64_libamidi.so
